@@ -1,0 +1,1 @@
+## These codes for take a brief glaze about some functionality
