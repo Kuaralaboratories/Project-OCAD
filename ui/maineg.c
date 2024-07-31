@@ -32,7 +32,7 @@ static int uint8_slider(mu_Context *ctx, unsigned char *value, int low, int high
   return res;
 }
 
-/* Log Window is for the  */
+/* The log Window is important to show the record of all transactions */
 static void log_window(mu_Context *ctx) {
   if (mu_begin_window(ctx, "Log Window", mu_rect(350, 40, 300, 200))) {
     /* output text panel */
@@ -64,7 +64,6 @@ static void log_window(mu_Context *ctx) {
     mu_end_window(ctx);
   }
 }
-
 
 static void process_frame(mu_Context *ctx) {
   mu_begin(ctx);
